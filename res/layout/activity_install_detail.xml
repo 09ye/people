@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" 
+    tools:ignore="HardcodedText">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+      
+             <include
+            android:id="@+id/title"
+            layout="@layout/titlebar_detail" />
+     
+
+        <RelativeLayout
+            android:id="@+id/layMyAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_item_ly"
+            android:paddingBottom="@dimen/padding_small"
+            android:paddingLeft="@dimen/padding_large"
+            android:paddingTop="@dimen/padding_small" >
+
+            <TextView
+                android:id="@+id/textA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="地点"
+                android:textColor="@color/textcolor2"
+                android:textSize="@dimen/text_medium_1" />
+
+            <TextView
+                android:id="@+id/textAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:text=""
+                android:textColor="@color/text_dark"
+                android:textSize="@dimen/text_medium_1" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/list_item" />
+
+        <RelativeLayout
+            android:id="@+id/layMyUnit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_item_ly"
+            android:paddingBottom="@dimen/padding_small"
+            android:paddingLeft="@dimen/padding_large"
+            android:paddingTop="@dimen/padding_small" >
+
+            <TextView
+                android:id="@+id/textb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="单位名称"
+                android:textColor="@color/textcolor2"
+                android:textSize="@dimen/text_medium_1" />
+
+            <TextView
+                android:id="@+id/textUnit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:text=""
+                android:textColor="@color/text_dark"
+                android:textSize="@dimen/text_medium_1" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/list_item" />
+
+        <RelativeLayout
+            android:id="@+id/layMyInstall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_item_ly"
+            android:paddingBottom="@dimen/padding_small"
+            android:paddingLeft="@dimen/padding_large"
+            android:paddingTop="@dimen/padding_small" >
+
+            <TextView
+                android:id="@+id/textc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="安装位置"
+                android:textColor="@color/textcolor2"
+                android:textSize="@dimen/text_medium_1" />
+
+            <TextView
+                android:id="@+id/textInstall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:text=""
+                android:textColor="@color/text_dark"
+                android:textSize="@dimen/text_medium_1"
+                 />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/list_item" />
+
+        <RelativeLayout
+            android:id="@+id/layMyType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_item_ly"
+            android:paddingBottom="@dimen/padding_small"
+            android:paddingLeft="@dimen/padding_large"
+            android:paddingTop="@dimen/padding_small" >
+
+            <TextView
+                android:id="@+id/textd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="产品型号"
+                android:textColor="@color/textcolor2"
+                android:textSize="@dimen/text_medium_1" />
+
+            <TextView
+                android:id="@+id/textType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:text=""
+                android:textColor="@color/text_dark"
+                android:textSize="@dimen/text_medium_1" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/list_item" />
+    </LinearLayout>
+
+</ScrollView>
